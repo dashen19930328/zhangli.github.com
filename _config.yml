@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: lucifd@sina.cn
 description: "记录下将要被遗忘的事"
 keyword: "Lucifd, Lucifd.Ch, Lucifd Blog, 博客, 个人网站, 互联网, Android, Golang"
-url: "http://lucifdch.github.io"              # your host, for absolute URL
+url: "http://dashen19930328.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
