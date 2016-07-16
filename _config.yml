@@ -1,5 +1,5 @@
 # Site settings
-title: Mr.baicai Blog
+title: Mr.baicai's Blog
 SEOTitle: Mr.baicai's blog |  Blog
 header-img: img/background.jpg
 email: Mr.baicai@sina.cn
@@ -68,7 +68,7 @@ disqus_username: lucifd
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Share the world the all of you....\""
+sidebar-about-description: "I am a Huster.\Share the world the all of you....\""
 sidebar-avatar: /img/personal.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
