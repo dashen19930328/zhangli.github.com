@@ -11,8 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
-  text-align:center;
+  margin: 0 auto;
 }
 article,
 aside,
