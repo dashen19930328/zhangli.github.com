@@ -21,9 +21,9 @@ header-img: "img/tag-bg.jpg"
 
 <!-- Main Content -->
 <div class="container" >
-	<div class="wrap">
+	<div class="row">
 	
-　　　　<div id='tag_cloud' class="tags">
+　　　　<div id='tag_cloud' class="tags" text-align="center">
 				{% for tag in site.tags %}
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 				{% endfor %}
