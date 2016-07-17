@@ -1,11 +1,11 @@
 # Site settings
-title: Lucifd.CH
-SEOTitle: C.H的博客 | Lucifd Blog
-header-img: img/home-bg.jpg
+title: Mr.baicai  Blog
+SEOTitle: Mr.baicai's Blog | Blog
+header-img: img/background.jpg
 email: lucifd@sina.cn
 description: "记录下将要被遗忘的事"
-keyword: "Lucifd, Lucifd.Ch, Lucifd Blog, 博客, 个人网站, 互联网, Android, Golang"
-url: "http://lucifdch.github.io"              # your host, for absolute URL
+keyword: "Mr.baicai, Mr., Blog, 博客, 个人网站, 互联网, Android, Golang"
+url: "http://dashen19930328.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -68,7 +68,7 @@ disqus_username: lucifd
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "斯布雷斯:\"想做法师，哪怕是最蹩脚最愚蠢的法师。只要是法师就行了....\""
+sidebar-about-description: "Share the world with you....\""
 sidebar-avatar: /img/avatar-lucifd.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
