@@ -20,7 +20,9 @@ tags:
     E poll();
     E element();
     E peek();}
-##  1.2 由源码知：queue是一个FIFO的队列数据结构，可用于生活中很多场景，比如吃饭排队等等，其继承Collection接口，本身也是接口
+    
+##   1.2 由源码知：queue是一个FIFO的队列数据结构，可用于生活中很多场景，比如吃饭排队等等，其继承Collection接口，
+         本身也是接口
 ##  1.3 queue中方法：add(),在队列的末尾添加元素，如果队列满，则抛出IllegalStateException 的异常
                            offer(),向队列尾添加元素，如果队满，则返回false
                            remove,删除队列头的元素，若队列为空，则抛出NoSuchElementException异常
