@@ -36,7 +36,7 @@ tags:
                           
 #  2.Stack
 ##   2.1 stack
-     也是编程中比较常使用到的数据结构之一，jdk源码如下：
+     也是编程中比较常使用到的数据结构之一，jdk源码如下。
 ```
   public class Stack<E> extends Vector<E> {
     public Stack() {
@@ -72,13 +72,13 @@ tags:
 ```
 ##  2.2 stack
 
-  继承vector的一个抽象类，是一种FILO的数据结构，应用场景，个人理解为queue受限的情景下，当然从源码来看，stack完全可以通过queue来模拟使用
+  继承vector的一个抽象类，是一种FILO的数据结构，应用场景，个人理解为queue受限的情景下，当然从源码来看，stack完全可以通过queue来模拟使用。
 
 ##  2.3 stack中方法
-                            *   push(),向栈顶添加元素，并返回该元素
-                            *   pop(),从栈顶删除元素，并返回该元素，若栈为空，则抛出EmptyStackException异常，其中使用到 synchronized ，来保证多线程编程下，数据操作的一致性
-                           *    peek（），返回栈顶元素，返回该元素，若栈为空，则抛出EmptyStackException异常
-                           *    empty（），通过栈中元素个数来判断栈是否为空等
-                           *    search(),寻找并返回从栈顶1开始计数的一个累加值，即元素位置，若不存在则返回-1
+    *   push(),向栈顶添加元素，并返回该元素
+    *   pop(),从栈顶删除元素，并返回该元素，若栈为空，则抛出EmptyStackException异常，其中使用到 synchronized ，来保证多线程编程下，数据操作的一致性
+    *    peek（），返回栈顶元素，返回该元素，若栈为空，则抛出EmptyStackException异常
+    *    empty（），通过栈中元素个数来判断栈是否为空等
+    *    search(),寻找并返回从栈顶1开始计数的一个累加值，即元素位置，若不存在则返回-1
 ##  2.4 最后说明
   若要熟悉或者深入理解机理用法，需要查看jdk源码与自己实践操作,queue与stack是可以互相模拟来使用。                          
