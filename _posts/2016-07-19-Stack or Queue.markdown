@@ -13,7 +13,9 @@ tags:
 
 #   1.Queue
 
-##  1.1  queue是使用频率高的数据结构之一，其在jdk中的源码如下。
+##  1.1  queue
+
+使用频率高的数据结构之一，其在jdk中的源码如下。
 
   ```
   public interface Queue<E> extends Collection<E> {
