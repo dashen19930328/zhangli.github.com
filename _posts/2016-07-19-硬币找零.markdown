@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "硬币找零"
+subtitle:   "由硬币找零谈动态规划（Dynamic Programming）"
+date:       2016-07-19
+author:     "Mr.baicai"
+header-img: "img/header-post/2016-03-20-01.jpg"
+tags:
+    - java研究
+---
+
+> 版权声明：本文为博主原创文章，未经博主允许不得转载。
+
+## 动态规划本质
+
+问题状态的定义和状态转移方程的定义，需要记录每一步状态，将其作为状态转移方程的下一步输入进而产生更加精确的状态。
+
+## 硬币找零
+
+dp[i]记录硬币总数为i时，所需硬币数，coins[i]数组表示提供的硬币类型，dp[i] = Math.min(dp[i-coins[j]]+1,dp[i])即为状态转移方程。
+
+##  Coding解析
+
+```
+ int[] dp = new int[amount+1]; //创建一个存储硬币额为amount所需的硬币数，硬币类型由数组coins[]给出
+       dp[0] = 0;
+       for(int i=1;i<=amount;i++){  
+           
+           dp[i] = Integer.MAX_VALUE; //初始化数组
+       }
+       
+       for(int i=1;i<=amount;i++){
+           
+           for(int j=0;j<coins.length;j++){
+               
+               if(i>=coins[j]&&dp[i-coins[j]]!=Integer.MAX_VALUE){
+                   
+                   dp[i] = Math.min(dp[i],dp[i-coins[j]]+1);  //通过当前数目与i-coins[j]的数目+1对比，取小值
+               }
+           }
+       }
+       
+       return dp[amount]==Integer.MAX_VALUE?-1:dp[amount]; //最终返回dp[amount]结果
+       
+```
