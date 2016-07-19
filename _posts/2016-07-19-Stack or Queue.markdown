@@ -17,7 +17,7 @@ tags:
 
 使用频率高的数据结构之一，其在jdk中的源码如下。
 
-  ```
+```
   public interface Queue<E> extends Collection<E> {
     boolean add(E e);
     boolean offer(E e);
@@ -26,7 +26,7 @@ tags:
     E element();
     E peek();}
       
-  ```
+```
     
 ##   1.2 由源码知
 
