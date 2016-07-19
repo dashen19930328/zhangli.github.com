@@ -13,16 +13,16 @@ tags:
 
 #   1.Queue
 
-##  1.1  queue是使用频率高的数据结构之一，其在jdk中的源码如下：
+##  1.1  queue是使用频率高的数据结构之一，其在jdk中的源码如下。
 
   ```
   public interface Queue<E> extends Collection<E> {
-      boolean add(E e);
-      boolean offer(E e);
-      E remove();
-      E  poll();
-      E element();
-      E peek();}
+    boolean add(E e);
+    boolean offer(E e);
+    E remove();
+    E  poll();
+    E element();
+    E peek();}
       
   ```
     
@@ -77,6 +77,7 @@ tags:
     }
 }
 ```
+
 ##  2.2 stack
 
   继承vector的一个抽象类，是一种FILO的数据结构，应用场景，个人理解为queue受限的情景下，当然从源码来看，stack完全可以通过queue来模拟使用。
