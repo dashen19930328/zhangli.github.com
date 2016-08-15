@@ -198,7 +198,8 @@ HelloWorldImpl.obj
 d:\JNI>java HelloWorld  
 
 ```
-# 4.在eclipse下运行
+
+#   4.在eclipse下运行
 
 4.1在eclipse下创建一个叫做jnitest的project
 
